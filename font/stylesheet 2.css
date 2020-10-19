@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Whyte Book';
+    src: url('Whyte-Book.eot');
+    src: url('Whyte-Book.eot?#iefix') format('embedded-opentype'),
+        url('Whyte-Book.woff') format('woff'),
+        url('Whyte-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whyte';
+    src: url('Whyte-Light.eot');
+    src: url('Whyte-Light.eot?#iefix') format('embedded-opentype'),
+        url('Whyte-Light.woff') format('woff'),
+        url('Whyte-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

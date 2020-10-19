@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Whyte';
+    src: url('Whyte-Regular.eot');
+    src: url('Whyte-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Whyte-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

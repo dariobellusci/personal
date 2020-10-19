@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Whyte';
+  src: url('Whyte-Light.eot');
+  src: url('Whyte-Light.eot?#iefix') format('embedded-opentype'),
+      url('Whyte-Light.woff') format('woff'),
+      url('Whyte-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+  background-color:white;
+  margin: 5px;
+  padding: 0px;
+  display: block;
+}
+
+.presentation{
+  width: 50%;
+}
+
+h1{
+  font-family: 'Whyte';
+  line-height: 1.1em;
+  font-size: 0.8em;
+  font-weight: 300;
+
+}
+
+.button-info{
+font-size: 0.6em;
+font-weight: 300;
+}
+
+.grid{
+  margin-top: 30px;
+  width: 100%;
+  height: auto; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.4rem;
+
+}
+
+.grid-box-sx{
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.grid-box-dx{
+  height: auto;
+  width: 100%;
+}
+
+.client{
+  margin-top: 0%;
+  font-family: 'Whyte';
+  line-height: 1.1em;
+  font-size: 0.6em;
+  font-weight: 300;
+}
+
+.grid-img{
+  width: 100%;
+  height: 450px;
+}
+
+.grid-info{
+  font-family: 'Whyte';
+  line-height: 1.1em;
+  font-size: 0.6em;
+  font-weight: 300;
+}
+
+
+
+/*––––––––––
+tablet
+–––––––––––*/
+@media(max-width:998px){
+
+}
+
+
+/*––––––––––
+smartphone
+–––––––––––*/
+@media(max-width:828px) {
+
+}
+
+/*––––––––––
+smartphone iphoneX
+–––––––––––*/
+@media(max-width:424px){
+
+}
